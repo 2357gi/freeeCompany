@@ -74,7 +74,7 @@ function updatePage(totalShortageMinutes, remainingWorkdays) {
     let neededWorkMinutesRemainder = Math.floor( neededWorkMinutesPerDay % 60 );
 
     let timeHTML = createTimeHTML(neededWorkHoursPerDay, neededWorkMinutesRemainder);
-    let itemHTML = createItemHTML('平均必要労働時間', timeHTML);
+    let itemHTML = createItemHTML('平均必要時間', timeHTML);
 
     let mainItemsElement = document.querySelector('.main-items');
     mainItemsElement.insertAdjacentHTML('beforeend', itemHTML);
