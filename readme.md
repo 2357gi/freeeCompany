@@ -1,5 +1,5 @@
 # FreeeCompany
-freeeに残り平均労働時間表示が欲しかった  
+freeeに平均残り労働時間表示が欲しかった  
 chatGPTくんに丸投げしながら作ったけど、最初っからtsで書いてって言えばよかった  
 
 ## how to install
