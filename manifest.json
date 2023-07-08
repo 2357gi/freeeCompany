@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "勤怠管理ツール拡張",
+  "version": "1.0",
+  "description": "勤怠管理ツールに今月の平均勤務時間と不足勤務時間を表示する",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://p.secure.freee.co.jp/*"],
+      "js": ["src/content_script.js"]
+    }
+  ]
+}
